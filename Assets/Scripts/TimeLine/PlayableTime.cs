@@ -45,7 +45,7 @@ public class PlayableTime : BasicPlayableBehaviour
  
     public override void PrepareFrame(Playable playable, FrameData info)
     {
-        curTime += info.deltaTime;
+        curTime += info.deltaTime * 0.5f;
         //曲线值
         Time.timeScale = mCurve.Evaluate(curTime/ maxTime);
     }

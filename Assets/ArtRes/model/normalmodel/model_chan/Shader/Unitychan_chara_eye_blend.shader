@@ -18,7 +18,7 @@ Shader "UnityChan/Eye - Transparent"
 			"Queue"="Geometry+1" // Transparent+1"
 			"IgnoreProjector"="True"
 			"RenderType"="Overlay"
-			"LightMode"="ForwardBase"
+			"LightMode"="SRPDefaultUnlit"
 		}
 
 		Pass

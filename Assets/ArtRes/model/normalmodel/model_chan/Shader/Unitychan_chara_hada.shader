@@ -17,7 +17,7 @@ Shader "UnityChan/Skin"
 		{
 			"RenderType"="Opaque"
 			"Queue"="Geometry"
-			"LightMode"="ForwardBase"
+			"LightMode"="SRPDefaultUnlit"
 		}
 
 		Pass

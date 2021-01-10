@@ -19,7 +19,7 @@ Shader "UnityChan/Blush - Transparent"
 			"Queue"="Geometry+3"
 			"IgnoreProjector"="True"
 			"RenderType"="Overlay"
-			"LightMode"="ForwardBase"
+			"LightMode"="SRPDefaultUnlit"
 		}
 		
 		Pass

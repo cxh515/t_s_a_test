@@ -16,7 +16,7 @@ Shader "UnityChan/Eye"
 		{
 			"RenderType"="Opaque"
 			"Queue"="Geometry"
-			"LightMode"="ForwardBase"
+			"LightMode"="SRPDefaultUnlit"
 		}
 
 		Pass
